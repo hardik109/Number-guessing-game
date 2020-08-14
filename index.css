@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: lightblue;
+}
+
+
+.container {
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+
+.app-sec {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 35px;
+}
+
+
+.sec-text {
+ margin: 5px 20px 0px 0px ;
+}
+
+.app-button-next button {
+  width: 180px;
+  padding: 10px;
+  border: none;
+  background: lightyellow;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.app-button-hidden button {
+  width: 180px;
+  padding: 10px;
+  border: none;
+  background: lightyellow;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
